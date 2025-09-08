@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [D2E2ESparkMobile Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.deposit.D2E2EMobileFramework.D2E2ESparkMobileFramework.StepDefinition.ListenerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.deposit.D2E2EMobileFramework.D2E2ESparkMobileFramework.Runner.TestRunner">
+        <methods>
+          <include name="tearDwonClass"/>
+          <include name="setUpClass"/>
+          <include name="setupClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.deposit.D2E2EMobileFramework.D2E2ESparkMobileFramework.Runner.TestRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [D2E2ESparkMobile Automation Test Suite] -->
